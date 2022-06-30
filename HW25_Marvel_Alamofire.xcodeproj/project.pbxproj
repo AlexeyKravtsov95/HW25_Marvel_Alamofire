@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C731FCD2865AECA003CC511 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C731FCC2865AECA003CC511 /* CharacterModel.swift */; };
+		8C731FCF2865C4A5003CC511 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C731FCE2865C4A4003CC511 /* ImageModel.swift */; };
+		8C731FD12865C526003CC511 /* ComicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C731FD02865C526003CC511 /* ComicsModel.swift */; };
+		8C731FD32865D217003CC511 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C731FD22865D217003CC511 /* NetworkManager.swift */; };
 		8CFDE57128659F3200379B90 /* HW25_Marvel_AlamofireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDE57028659F3200379B90 /* HW25_Marvel_AlamofireApp.swift */; };
 		8CFDE57328659F3200379B90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDE57228659F3200379B90 /* ContentView.swift */; };
 		8CFDE57528659F3400379B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFDE57428659F3400379B90 /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* Begin PBXFileReference section */
 		361305C7E5C14F2BD72F758A /* Pods-HW25_Marvel_Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW25_Marvel_Alamofire.release.xcconfig"; path = "Target Support Files/Pods-HW25_Marvel_Alamofire/Pods-HW25_Marvel_Alamofire.release.xcconfig"; sourceTree = "<group>"; };
 		4C9CF791173C96AE72615F99 /* Pods_HW25_Marvel_Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW25_Marvel_Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C731FCC2865AECA003CC511 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		8C731FCE2865C4A4003CC511 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		8C731FD02865C526003CC511 /* ComicsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsModel.swift; sourceTree = "<group>"; };
+		8C731FD22865D217003CC511 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8CFDE56D28659F3200379B90 /* HW25_Marvel_Alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW25_Marvel_Alamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFDE57028659F3200379B90 /* HW25_Marvel_AlamofireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW25_Marvel_AlamofireApp.swift; sourceTree = "<group>"; };
 		8CFDE57228659F3200379B90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +65,7 @@
 		8C731FCA2865A75A003CC511 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8C731FD22865D217003CC511 /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -127,6 +136,9 @@
 		8CFDE5802865A61E00379B90 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8C731FCC2865AECA003CC511 /* CharacterModel.swift */,
+				8C731FCE2865C4A4003CC511 /* ImageModel.swift */,
+				8C731FD02865C526003CC511 /* ComicsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,8 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C731FD32865D217003CC511 /* NetworkManager.swift in Sources */,
 				8CFDE57328659F3200379B90 /* ContentView.swift in Sources */,
+				8C731FCF2865C4A5003CC511 /* ImageModel.swift in Sources */,
 				8CFDE57128659F3200379B90 /* HW25_Marvel_AlamofireApp.swift in Sources */,
+				8C731FCD2865AECA003CC511 /* CharacterModel.swift in Sources */,
+				8C731FD12865C526003CC511 /* ComicsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
